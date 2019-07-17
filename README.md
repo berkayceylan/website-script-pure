@@ -1,0 +1,1 @@
+# Yakında nasıl kullanacağınızı tutorial şeklinde ekleyecek veya kurulum scripti yazacağım.

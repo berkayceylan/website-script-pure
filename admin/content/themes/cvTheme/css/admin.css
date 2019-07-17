@@ -1,0 +1,113 @@
+body, ul{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ddd;
+	font-family: sans-serif;
+}
+
+ul.aside{
+  list-style-type: none;
+  background-color: #555;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+ul.aside li{
+  padding: 15px 40px;
+
+  cursor: pointer;
+}
+ul.aside li:hover{
+  background-color: #000;
+}
+ul.aside a{
+	color: #fff;
+	text-decoration: none;
+}
+/*******************/
+.contMenu{
+  min-width: 990px;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  padding: 20px 0;
+}
+/**************************/
+.textr1{
+  resize: none;
+  font-size: 14px;
+  height: 45px;
+  width: 500px;
+  padding: 0px 10px;
+  padding-top: 10px;
+  outline: none;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.textr35{
+  height: 425;
+  width: 500px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.textr8{
+  height: 155px;
+  width: 500px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.button1{
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+
+}
+.button1:hover{
+  border: 1px solid #fff;
+}
+.tableDiv{
+	max-width: 1500px;
+	overflow: scroll;
+}
+.table1{
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 15px;
+
+	overflow: scroll;
+}
+.table1 tr{
+max-width: 50%;
+}
+.table1 td{
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 15px;
+}
+.subSideMenu li:before{
+	content: "\f0d7"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+
+}
+.subSide{
+	display: none;
+
+}
+.subSide li{
+	margin-left: 15px;
+}

@@ -1,0 +1,7 @@
+﻿RewriteEngine on
+
+RewriteRule ^islem/(.*)?$ index.php?prcss=$1
+RewriteRule ^profil/(.*)?$ index.php?usr=$1
+RewriteRule ^konu/(.*)?$ index.php?konu=$1
+RewriteRule ^show/(.*)?$ index.php?show=$1
+Options -Indexes

@@ -30,4 +30,3 @@ CMS on Pure PHP, Mysql backend and HTML, CSS, Javascript, Jquery Frontend
 
 
 
-Created by Berkay CEYLAN

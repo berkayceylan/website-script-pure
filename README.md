@@ -1,6 +1,5 @@
 
 # Original CMS System
-### I didn't use any Framework, api or library for this project. I've created everything myself
 
 CMS on Pure PHP, Mysql backend and HTML, CSS, Javascript, Jquery Frontend
 
